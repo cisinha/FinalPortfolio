@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/industry-29edd3d4-d6fa-4eea-b23c-292f4c2bab77/styles.css">
+<script src="_ds/industry-29edd3d4-d6fa-4eea-b23c-292f4c2bab77/_ds_bundle.js"></script>
+<style>
+  body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); text-wrap: pretty; }
+  a { color: var(--color-accent-700); text-decoration: none; }
+  a:hover { color: var(--color-accent); }
+  :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+</style>
+</helmet>
+<div style="min-height: 100%; background: var(--color-bg);">
+  <nav class="nav" style="max-width: 1180px; margin: 0 auto; padding: 18px clamp(20px, 5vw, 64px); gap: 24px; flex-wrap: wrap;">
+    <a class="nav-brand" href="Inicio.dc.html" style="letter-spacing: 0.02em; text-transform: uppercase; color: var(--color-text);">Marc Cisa Vela</a>
+    <a href="Inicio.dc.html">Inicio</a>
+    <a href="Nexus.dc.html">Nexus</a>
+    <a href="Bancada.dc.html">Bancada</a>
+    <a href="Planos.dc.html" aria-current="page">Planos</a>
+    <a href="Perfil.dc.html">Perfil</a>
+  </nav>
+
+  <main style="max-width: 1180px; margin: 0 auto; padding: clamp(36px, 6vw, 80px) clamp(20px, 5vw, 64px) clamp(48px, 7vw, 96px);">
+    <span style="display: block; font-size: 13px; line-height: 12px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; color: var(--color-accent-700); margin: 0 0 12px; font-feature-settings: 'tnum' 1;">03 · Documentación</span>
+    <hr style="height: 1px; border: 0; margin: 0 0 28px; background: var(--color-divider);">
+    <div style="display: flex; flex-wrap: wrap; gap: clamp(24px, 5vw, 64px); align-items: flex-end; margin-bottom: clamp(36px, 5vw, 56px);">
+      <h1 style="flex: 1 1 380px; min-width: 260px; font-family: var(--font-heading); font-weight: 600; font-size: clamp(42px, 6.8vw, 88px); line-height: 1.02; letter-spacing: 0.01em; text-transform: uppercase; margin: 0; margin-left: -0.052em;">Planos</h1>
+      <p style="flex: 1 1 320px; min-width: 260px; font-size: 17px; line-height: 28px; margin: 0; color: color-mix(in srgb, var(--color-text) 86%, transparent);">Formato A3, acotación ISO 2768-mk, chaflanes 2×45° y radios R2 no acotados. Cinco planos de EcoCompact y el de la bancada de MotoStudent.</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: clamp(24px, 3vw, 36px);">
+      <figure class="blueprint" style="margin: 0; background: #fff;">
+        <img src="assets/plano-explosionado.png" alt="Plano de conjunto explosionado de EcoCompact con la lista de 22 elementos" style="display: block; width: 100%; height: auto;">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <figcaption style="border-top: 1px solid var(--color-divider); padding: 14px 18px; background: var(--color-bg);">
+          <span style="display: block; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700); font-weight: 600; margin-bottom: 5px;">EcoCompact-00.02</span>
+          <span style="display: block; font-family: var(--font-heading); font-size: 20px; letter-spacing: 0.02em; text-transform: uppercase; font-weight: 600;">Explosionado</span>
+          <span style="display: block; margin-top: 4px; font-size: 13px; line-height: 20px; color: color-mix(in srgb, var(--color-text) 74%, transparent); font-feature-settings: 'tnum' 1;">A3 · 1:100 · 22 elementos</span>
+        </figcaption>
+      </figure>
+
+      <figure class="blueprint" style="margin: 0; background: #fff;">
+        <img src="assets/plano-conjunto.png" alt="Plano de conjunto de EcoCompact con vistas, secciones y detalles" style="display: block; width: 100%; height: auto;">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <figcaption style="border-top: 1px solid var(--color-divider); padding: 14px 18px; background: var(--color-bg);">
+          <span style="display: block; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700); font-weight: 600; margin-bottom: 5px;">EcoCompact-00.01</span>
+          <span style="display: block; font-family: var(--font-heading); font-size: 20px; letter-spacing: 0.02em; text-transform: uppercase; font-weight: 600;">Conjunto</span>
+          <span style="display: block; margin-top: 4px; font-size: 13px; line-height: 20px; color: color-mix(in srgb, var(--color-text) 74%, transparent); font-feature-settings: 'tnum' 1;">A3 · 1:50 · secciones A-A y B-B</span>
+        </figcaption>
+      </figure>
+
+      <figure class="blueprint" style="margin: 0; background: #fff;">
+        <img src="assets/plano-disco.png" alt="Plano del disco triturador con sección y perspectiva" style="display: block; width: 100%; height: auto;">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <figcaption style="border-top: 1px solid var(--color-divider); padding: 14px 18px; background: var(--color-bg);">
+          <span style="display: block; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700); font-weight: 600; margin-bottom: 5px;">EcoCompact-02.03</span>
+          <span style="display: block; font-family: var(--font-heading); font-size: 20px; letter-spacing: 0.02em; text-transform: uppercase; font-weight: 600;">Disco triturador</span>
+          <span style="display: block; margin-top: 4px; font-size: 13px; line-height: 20px; color: color-mix(in srgb, var(--color-text) 74%, transparent); font-feature-settings: 'tnum' 1;">A3 · 1:2 · Ø95 h6 · acabado N7</span>
+        </figcaption>
+      </figure>
+
+      <figure class="blueprint" style="margin: 0; background: #fff;">
+        <img src="assets/plano-compuerta.png" alt="Plano de la compuerta inferior 1 acotada" style="display: block; width: 100%; height: auto;">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <figcaption style="border-top: 1px solid var(--color-divider); padding: 14px 18px; background: var(--color-bg);">
+          <span style="display: block; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700); font-weight: 600; margin-bottom: 5px;">EcoCompact-03.02</span>
+          <span style="display: block; font-family: var(--font-heading); font-size: 20px; letter-spacing: 0.02em; text-transform: uppercase; font-weight: 600;">Compuerta inferior 1</span>
+          <span style="display: block; margin-top: 4px; font-size: 13px; line-height: 20px; color: color-mix(in srgb, var(--color-text) 74%, transparent); font-feature-settings: 'tnum' 1;">A3 · 1:20 · 1.800 × 1.560 mm</span>
+        </figcaption>
+      </figure>
+
+      <figure class="blueprint" style="margin: 0; background: #fff;">
+        <img src="assets/plano-conducto.png" alt="Plano del conducto de residuos con vistas, sección y detalle" style="display: block; width: 100%; height: auto;">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <figcaption style="border-top: 1px solid var(--color-divider); padding: 14px 18px; background: var(--color-bg);">
+          <span style="display: block; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700); font-weight: 600; margin-bottom: 5px;">EcoCompact-02.01</span>
+          <span style="display: block; font-family: var(--font-heading); font-size: 20px; letter-spacing: 0.02em; text-transform: uppercase; font-weight: 600;">Conducto de residuos</span>
+          <span style="display: block; margin-top: 4px; font-size: 13px; line-height: 20px; color: color-mix(in srgb, var(--color-text) 74%, transparent); font-feature-settings: 'tnum' 1;">A3 · 1:10 · detalle C 1:5</span>
+        </figcaption>
+      </figure>
+
+      <figure class="blueprint" style="margin: 0; background: #fff;">
+        <img src="assets/plano-bancada.png" alt="Plano acotado de la bancada de MotoStudent" style="display: block; width: 100%; height: auto;">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <figcaption style="border-top: 1px solid var(--color-divider); padding: 14px 18px; background: var(--color-bg);">
+          <span style="display: block; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700); font-weight: 600; margin-bottom: 5px;">MotoStudent</span>
+          <span style="display: block; font-family: var(--font-heading); font-size: 20px; letter-spacing: 0.02em; text-transform: uppercase; font-weight: 600;">Bancada</span>
+          <span style="display: block; margin-top: 4px; font-size: 13px; line-height: 20px; color: color-mix(in srgb, var(--color-text) 74%, transparent); font-feature-settings: 'tnum' 1;">2.580 × 1.569 mm · detalles A, B y C</span>
+        </figcaption>
+      </figure>
+    </div>
+
+    <section style="margin-top: clamp(40px, 6vw, 72px); display: flex; flex-wrap: wrap; gap: 12px; border-top: 1px solid var(--color-divider); padding-top: 28px;">
+      <a class="btn btn-secondary" href="Nexus.dc.html" style="min-height: 36px;">Nexus · EcoCompact</a>
+      <a class="btn btn-secondary" href="Bancada.dc.html" style="min-height: 36px;">Bancada 3D</a>
+      <a class="btn btn-primary" href="Perfil.dc.html" style="min-height: 36px;">Perfil y contacto</a>
+    </section>
+  </main>
+
+  <footer style="max-width: 1180px; margin: 0 auto; padding: 0 clamp(20px, 5vw, 64px) 48px; font-size: 13px; line-height: 24px; color: color-mix(in srgb, var(--color-text) 70%, transparent);">Marc Cisa Vela · UPC, Escuela Politécnica Superior de Ingeniería de Vilanova i la Geltrú · <a href="mailto:marccisavr11@gmail.com">marccisavr11@gmail.com</a></footer>
+</div>
+</x-dc>
+</body>
+</html>
